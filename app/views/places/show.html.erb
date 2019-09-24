@@ -44,6 +44,7 @@
 
 
 <% @place.photos.each do |photo| %>
+<%= image_tag photo.picture.url %>
 <% end %>
 
 <div class="clear"></div>
