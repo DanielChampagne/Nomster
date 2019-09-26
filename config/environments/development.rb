@@ -1,5 +1,7 @@
 Rails.application.configure do
 
+  config.web_console.whitelisted_ips = '10.0.2.2'
+
   config.action_mailer.delivery_method = :test
   
   # config.action_mailer.delivery_method = :smtp
