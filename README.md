@@ -11,7 +11,6 @@ A Yelp clone that integrates with the Google Maps API and includes features like
 - Google Maps API
 
 #### Ruby Gems used:
-- Kaminari
 - Carrierwave
 - Figaro
 - Simple-Form
